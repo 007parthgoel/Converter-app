@@ -1,8 +1,10 @@
 import React from 'react';
+// import {Link} from 'react-router-dom';
 
 import Logo from '../../Logo/Logo';
 import classes from './Toolbar.css';
 import DrawerToggle from '../SideDrawer/DrawerToggle/DrawerToggle';
+// import NavigationItem from '../../Navigation/NavigationItems/NavigationItem/NavigationItem';
 
 const Toolbar = (props) => (
     <header className={classes.Toolbar}>
@@ -10,7 +12,12 @@ const Toolbar = (props) => (
         <div className={classes.Logo}>
             <Logo/>
         </div>
-        <h1>MainMenu</h1>
+        <nav className={classes.DesktopOnly}>
+            <a 
+            href="/"
+            activeClassName={classes.active}>MainMenu</a>
+        </nav>
+        {/* <NavigationItem link={"/"} exact>MainMenu</NavigationItem>         */}
     </header>
 );
 

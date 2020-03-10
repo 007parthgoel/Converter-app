@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 import classes from './DistanceConverter.css';
-import ReactAux from '../hoc/ReactAux';
-import Keypad from '../Components/UI/Keypad/Keypad';
-import TextScreen from '../Components/UI/TextScreen/TextScreen';
-import DropDown from '../Components/UI/DropDown/DropDown';
+import ReactAux from '../../hoc/ReactAux';
+import Keypad from '../../Components/UI/Keypad/Keypad';
+import TextScreen from '../../Components/UI/TextScreen/TextScreen';
+import DropDown from '../../Components/UI/DropDown/DropDown';
 
 const menu = ['km', 'm', 'dm', 'cm'];
 
