@@ -1,0 +1,32 @@
+.Keyset{
+    /* width: 100%; */
+    align-items: flex-end;
+}
+
+.Keypad{
+    height: 80px;
+    margin-top: 5px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+}
+
+.Keypad button{
+    height: 80px;
+    width: 400px;
+    border-radius: 5px;
+    padding: 2px;    
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-color:black;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+@media(max-width:500px){
+    .Keypad {
+        width: 100%;
+    }
+}

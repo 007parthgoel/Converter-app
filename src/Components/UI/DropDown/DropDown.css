@@ -1,0 +1,29 @@
+.DropDown select{
+    position: relative;
+    text-align: left;
+    height: 80px;
+    width: 220px;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+@media(max-width:800px) and (min-width:600px){
+    .DropDown select{
+        width:180px;
+        
+    }
+}
+
+@media(max-width:600px) and (min-width:400px){
+    .DropDown select{
+        width:150px;
+        /* margin-right: 2px; */
+    }
+}
+
+@media(max-width:400px){
+    .DropDown select{
+        width:80px;        
+    }   
+}

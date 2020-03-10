@@ -1,0 +1,38 @@
+.textScreen{
+    text-align:right;  
+}
+
+.textScreen input{
+    height: 80px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-radius: 5px;
+    border-color: black;
+    background-color: lightpink;
+    /* position: relative; */
+    width: 500px;
+
+}
+
+@media(max-width:750px) and (min-width:600px){
+    .textScreen input{
+        width:400px;
+        margin-right: 2px;
+    }
+}
+
+@media(max-width:600px) and (min-width:400px){
+    .textScreen input{
+        width:200px;
+        margin-right: 2px;
+    }
+}
+
+@media(max-width:400px){
+    .textScreen input{
+        width:150px;
+        margin-right: 2px;
+    }   
+}

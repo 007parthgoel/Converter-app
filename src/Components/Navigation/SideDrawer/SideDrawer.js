@@ -17,7 +17,7 @@ const SideDrawer = (props) => {
             <div className={attachClasses.join(' ')} onClick={props.closed}>
                 <div className={classes.Logo}>
                     <Logo />
-                    <h1>vsdvsdvbfsb</h1>
+                    {/* <h1>vsdvsdvbfsb</h1> */}
                 </div>
             </div>
         </ReactAux>
